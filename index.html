@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tisetso Letuka — Data Analyst & Scientist</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300;1,9..144,700&family=Cabinet+Grotesk:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">T<span class="dotfornav">.</span>Letuka</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="hero">
+    <div class="hero-left reveal">
+      <div class="hero-pill">
+        <div class="hero-pill-dot"></div>
+        Open to opportunities
+      </div>
+      <h1>Data Analyst<br>& <em>Scientist.</em></h1>
+      <p class="hero-sub">
+        Data scientist working at the intersection of health and finance. Turning messy data into decisions that matter.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-outline">Get In Touch</a>
+      </div>
+    </div>
+
+    <div class="hero-card reveal">
+      <img src="public/profile picture.jpg" style="width:80px;height:80px;border-radius:50%;object-fit:cover;margin-bottom:1.5rem;border:2px solid var(--border2);">
+      <div class="hero-card-name">Tisetso Letuka</div>
+      <div class="hero-card-role">Data Analyst · Data Scientist · Johannesburg, ZA</div>
+      <div class="hero-card-divider"></div>
+      <div class="hero-card-stats">
+        <div class="stat">
+          <div class="stat-val">4+</div>
+          <div class="stat-label">Projects Deployed</div>
+        </div>
+        <div class="stat">
+          <div class="stat-val">3x</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+      </div>
+      <div class="hero-card-tags">
+        <span class="chip">Health Data</span>
+        <span class="chip">Finance</span>
+        <span class="chip">Big Data</span>
+        <span class="chip">Machine Learning</span>
+        <span class="chip">SQL</span>
+        <span class="chip">Python</span>
+        <span class="chip">Power BI</span> 
+        <span class="chip">JavaScript</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div class="section-wrap" id="about">
+    <div class="section-header reveal">
+      <span class="section-num">01</span>
+      <h2 class="section-title">About</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="about-grid reveal">
+      <div class="about-text">
+        <p class="big-quote">"I don't just build models, I ship them.All creative ideas come from my midnight rabbit holes"</p>
+        <p>I build intelligent tools that translate complex, inaccessible information into clarity for real people , sparked by real frustrations I've actually lived through.Got a confusing medical scheme rejection letter? Been there. Stared at a credit report that reads like ancient scripture? Also been there. Built a tool for that too. </p>
+        <p>Most of my projects were born at 2am down a rabbit hole that started with one question and ended with a GitHub repo. That's just how this works.</p>
+        <p>What sets my work apart is that I don't stop at the notebook. I build, deploy, and deliver things people can actually use — whether that's a live ML application or a business insight that drives a real decision.</p>
+        <p>I'm equally comfortable doing deep data analysis and building end-to-end machine learning pipelines, and I'm always looking for the overlap between the two.</p>
+      </div>
+
+      <!-- CERT TOGGLE -->
+      <div class="cert-toggle-wrap">
+        <div class="cert-toggle-tabs">
+          <button class="cert-tab active" onclick="switchTab('ds')">Data Science & Analytics</button>
+          <button class="cert-tab" onclick="switchTab('dev')">Education</button>
+        </div>
+
+        <!-- DS Panel -->
+        <div class="cert-panel active" id="panel-ds">
+          <div class="cert-card">
+            <div class="cert-body">
+              <div class="cert-name">Associate Data Scientist</div>
+              <div class="cert-issuer">DataCamp · 2026</div>
+            </div>
+            <div class="cert-actions">
+              <span class="badge badge-green">Completed</span>
+              <a href="/public/DSA0012881650985.pdf" target="_blank" class="cert-view-btn">View →</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-body">
+              <div class="cert-name">SQL Associate</div>
+              <div class="cert-issuer">DataCamp · 2026</div>
+            </div>
+            <div class="cert-actions">
+              <span class="badge badge-green">Completed</span>
+              
+              <a href="/public/SQA0016162874402.pdf" target="_blank" class="cert-view-btn">View →</a>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-body">
+              <div class="cert-name">Professional Data Scientist</div>
+              <div class="cert-issuer">DataCamp · In Progress</div>
+            </div>
+            <div class="cert-actions">
+              <span class="badge badge-orange">In Progress</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education  Panel -->
+        <div class="cert-panel" id="panel-dev">
+            <div class="cert-card">
+           
+            <div class="cert-body">
+              <div class="cert-name">Bsc Honours Anatomical Pathology- Distinction</div>
+              <div class="cert-para">University of the Witwatersrand 2025</div>
+              <div class="cert-issuer"> Statistical Inference, Probability Theory, Research Ethics, Operations Research </div>
+            </div>
+            <div class="cert-actions">
+              <span class="badge badge-green">Completed</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-body">
+              <div class="cert-name">Bsc Biomedical Science</div>
+              <div class="cert-para">University of the Witwatersrand 2023</div>
+              <div class="cert-issuer">Experimental design hypothesis testing, Statistical inference, Physics, Biostatistics.  </div>
+            </div>
+            <div class="cert-actions">
+              <span class="badge badge-green">Completed</span>
+            </div>
+          </div>
+          
+         
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PROJECTS -->
+  <div class="section-wrap" id="projects">
+    <div class="section-header reveal">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="projects-list">
+      <a href="https://patholens.streamlit.app/" target="_blank" class="project-card reveal">
+        <div class="project-info">
+          <div>
+            <div class="project-domain">Health · Machine Learning · Live App · PyTorch</div>
+            <div class="project-title">PathoLens</div>
+            <p class="project-desc">A deployed ML application that classifies cancer tissue samples — lung cancer tested against benign and colon cancer. Built to explore how machine learning can assist pathologists in diagnostic workflows. Anyone can use it, right now, in the browser.</p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Machine Learning</span>
+              <span class="tag">Streamlit</span>
+              <span class="tag">Classification</span>
+              <span class="tag">Health Data</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <span class="project-link primary">Live App →</span>
+            <span class="project-link secondary">GitHub</span>
+          </div>
+        </div>
+        <div class="project-screenshot">
+          <!-- PLACEHOLDER: replace with <img src="patholens-screenshot.png" alt="PathoLens"> -->
+          <div class="screenshot-placeholder">
+            <img src="/public/Screenshot (9).png" alt="PathoLens">
+            
+          </div>
+        </div>
+      </a>
+      <!--Retail lens project -->
+ <a href="https://retaildashboardtl.streamlit.app/" target="_blank" class="project-card flipped reveal">
+        <div class="project-info">
+          <div>
+            <div class="project-domain">E-Commerce · Machine Learning · Analysis · Churn Predictor </div>
+            <div class="project-title">RetailLens – E-Commerce Analytics </div>
+            <p class="project-desc"> 
+              An end-to-end analytics project on 100k+ orders from the Olist dataset, quantifying how delivery delays drive a 20–30% drop in customer satisfaction. Includes a churn prediction engine and hypothesis-tested seller performance analysis, delivered as an interactive Streamlit app and executive report
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">Risk Modelling</span>
+              <span class="tag">EDA</span>
+              <span class="tag">Finance</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <span class="project-link primary">Live App →</span>
+          </div>
+        </div>
+        <div class="project-screenshot">
+          <!-- PLACEHOLDER: replace with <img src="credit-risk-screenshot.png" alt="Credit Risk"> -->
+          <div class="screenshot-placeholder">
+           <img src="/public/retaillens.png" alt="E-Commerce Analytics ">
+          </div>
+        </div>
+      </a>
+      <!--Finflow-->
+
+      <a href="https://github.com/T-Letuka/Finflow" target="_blank" class="project-card reveal">
+        <div class="project-info">
+          <div>
+            <div class="project-domain">Finance · SQL · SHAP · Analysis · PowerBi </div>
+            <div class="project-title">FinFlow – Credit Risk Modelling & Decision Support System</div>
+            <p class="project-desc"> 
+              A credit risk model built on 2.9M behavioural transaction records to assess default risk for 500+ informal businesses. Features SHAP-based explainability for transparent model outputs and a Power BI dashboard translating predictions into actionable insights for non-technical stakeholders.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">SQL</span>
+              <span class="tag">XGBoost</span>
+              <span class="tag">Credit Risk Modelling</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Finance</span>
+              <span class="tag">SMOTE</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <span class="project-link primary">Github Link →</span>
+          </div>
+        </div>
+        <div class="project-screenshot">
+        
+          <div class="screenshot-placeholder">
+           <img src="/public/Finflow1.png" alt="Finflow ">
+          </div>
+        </div>
+      </a>
+      <!--Credit -->
+      <a href="https://credit-pulse.onrender.com/" target="_blank" class="project-card flipped reveal">
+        <div class="project-info">
+          <div>
+            <div class="project-domain">Data · ETL Pipelines · Analysis</div>
+            <div class="project-title">Credit Risk NCR</div>
+            <p class="project-desc">
+              17 years of National Credit Regulator data (71 quarters) transformed into a production MySQL database with automated ETL pipelines. Features a deployed Plotly Dash dashboard and original research proving the lack of sustained recovery in the SA credit market since 2007 — with direct implications for lending strategy and financial inclusion policy.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">MySQL</span>
+              <span class="tag">Plotly Dash</span>
+              <span class="tag">EDA</span>
+              <span class="tag">ETL pipelines</span>
+            </div>
+          </div>
+          <div class="project-links">
+            <span class="project-link primary">Live App →</span>
+          </div>
+        </div>
+        <div class="project-screenshot">
+          <!-- PLACEHOLDER: replace with <img src="credit-risk-screenshot.png" alt="Credit Risk"> -->
+          <div class="screenshot-placeholder">
+           <img src="/public/Screenshot (16).png" alt="Credit Risk">
+          </div>
+        </div>
+      </a>
+
+     
+    </div>
+  </div>
+
+  <!-- SKILLS -->
+  <div class="skills-outer" id="skills">
+    <div class="skills-inner">
+      <div class="section-header reveal">
+        <span class="section-num">03</span>
+        <h2 class="section-title">Skills & Tools</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>JavaScript</li>
+            <li>HTML & CSS</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Machine Learning</h3>
+          <ul>
+            <li>Scikit-learn</li>
+            <li>Classification</li>
+            <li>Regression</li>
+            <li>Feature Engineering</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Data Analysis</h3>
+          <ul>
+            <li>Pandas & NumPy</li>
+            <li>Power BI</li>
+            <li>Exploratory Analysis</li>
+            <li>Data wrangling</li>
+          </ul>
+        </div>
+        <div class="skill-group">
+          <h3>Deployment & Tools</h3>
+          <ul>
+            <li>Streamlit</li>
+            <li>Dash</li>
+            <li>GitHub</li>
+             <li>Hugging Space</li>
+            <li>Node.js / Express</li>
+            <li>Jupyter Notebooks</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONTACT -->
+  <div class="section-wrap" id="contact">
+    <div class="section-header reveal">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Contact</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact-grid reveal">
+      <div class="contact-left">
+        <h2>Let's work on something <em>real.</em></h2>
+        <p>Open to data analyst and data science roles, collaborations, and opportunities where data can make a genuine difference — especially in health and financial services.</p>
+        <a href="#projects" class="btn-primary">See My Work</a>
+      </div>
+      <div class="contact-links">
+        <a href="https://github.com/T-Letuka" target="_blank" class="contact-link">
+          <div class="contact-link-icon">GH</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">GitHub</div>
+            <div class="contact-link-value">T-Letuka</div>
+          </div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <!-- PLACEHOLDER: update href and value -->
+        <a href="www.linkedin.com/in/tisetso-letuka-b40716282" target="_blank" class="contact-link">
+          <div class="contact-link-icon">LI</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">LinkedIn</div>
+            <div class="contact-link-value">My linked • Click </div>
+          </div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+        <!-- PLACEHOLDER: update href and value -->
+        <a href="mailto:tisetsoletuka@gmail.com" class="contact-link">
+          <div class="contact-link-icon">@</div>
+          <div class="contact-link-info">
+            <div class="contact-link-label">Email</div>
+            <div class="contact-link-value">tisetsoletuka@gmail.com</div>
+          </div>
+          <span class="contact-link-arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 Tisetso Letuka • BSc Biomedical Sciences • Honours Anatomical Pathology (Cum Laude) </p>
+    <p>Built with intent. Deployed with purpose. <a href="https://github.com/T-Letuka">GitHub →</a></p>
+  </footer>
+
+  <script>
+    function switchTab(tab) {
+      document.querySelectorAll('.cert-tab').forEach(t => t.classList.remove('active'));
+      document.querySelectorAll('.cert-panel').forEach(p => p.classList.remove('active'));
+      document.getElementById('panel-' + tab).classList.add('active');
+      event.target.classList.add('active');
+    }
+
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+    }, { threshold: 0.1 });
+    reveals.forEach(r => observer.observe(r));
+  </script>
+
+</body>
+</html>
